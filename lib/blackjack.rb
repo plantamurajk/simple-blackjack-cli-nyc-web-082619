@@ -39,15 +39,8 @@ def hit?(card_total)
      invalid_command
      hit?(card_total)
    end
-
   return card_total
-    hit?(card_total)
-    elsif input == "h" then
-     hit?(card_total + deal_card)
-   else
-     invalid_command
-   end
-  
+
 end
 
 def invalid_command
@@ -67,4 +60,6 @@ def runner
   
 return end_game(card_total)
 end
+    
+
      
